@@ -1,15 +1,3 @@
-"""Network DSP — operations package.
-
-Shared helpers used by every operation module:
-  - Project folder constants (PCAPS_DIR, RESULTS_DIR, PLOTS_DIR)
-  - The dark "black x teal" color palette
-  - apply_dark_style(): matplotlib rcParams matching the UI theme
-  - draw_discrete(): draws a DISCRETE signal as vertical lines (stems for
-    short windows, needle lines for full overviews) — never a smooth curve
-  - apply_view() / view_note(): zoom helpers for long recordings
-  - save_figure(): exports a figure as a PNG into results/plots/
-"""
-
 import os
 
 import numpy as np
